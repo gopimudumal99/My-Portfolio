@@ -31,14 +31,14 @@ function Intro() {
         </div>
         <button className="button i-button">Hire me</button>
         <div className="i-icons">
-          <a href="https://github.com/gopimudumal99" target="_blank">
+          <a href="https://github.com/gopimudumal99">
             <img src={Github} alt="" />
           </a>
-          <a href="https://www.linkedin.com/in/gopimudumal/" target="_blank">
+          <a href="https://www.linkedin.com/in/gopimudumal/">
             <img src={LinkdIn} alt="" />
           </a>
 
-          <a href="https://www.instagram.com/geneus_gopi/" target="_blank">
+          <a href="https://www.instagram.com/geneus_gopi/">
             <img src={Instagram} alt="" />
           </a>
         </div>

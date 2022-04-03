@@ -12,18 +12,22 @@ function Works() {
    const theme = useContext(themeContext);
    const darkMode = theme.state.darkMode;
   return (
-    <div className="works">
+    <div className="works" id="skills">
       {/* left-side */}
       <div className="p-left awesome">
-        <span style={{ color: darkMode ? 'white':''}}>Specialized in all these</span>
+        <span style={{ color: darkMode ? "white" : "" }}>
+          Specialized in all these
+        </span>
         <span> Languages & Tools</span>
         <span>
-          I am looking for opportunity to apply my
-          knowledge and skills to be a valuable assets for
+          I am looking for opportunity to apply my knowledge and skills to be a
+          valuable assets for
           <br />
           organization and a better version of myself.
         </span>
-        <button className="button i-button" style={{marginTop:'1rem'}}>Hire me</button>
+        <button className="button i-button" style={{ marginTop: "1rem" }}>
+          Hire me
+        </button>
         <div
           className="blur p-blur-1"
           style={{ background: "#ABF1FF94" }}
@@ -32,11 +36,12 @@ function Works() {
       {/* right-side */}
       <div className="w-right">
         <motion.div
-          initial={{ rotate: '45' }}
+          initial={{ rotate: "45" }}
           whileInView={{ rotate: 0 }}
-          viewport={{margin:'-40px'}}
-          transition={{duration:3.5,type:'spring'}}
-          className="w-mainCircle">
+          viewport={{ margin: "-40px" }}
+          transition={{ duration: 3.5, type: "spring" }}
+          className="w-mainCircle"
+        >
           <div className="w-secondaryCircle">
             <img src={Upwork} alt="" />
           </div>

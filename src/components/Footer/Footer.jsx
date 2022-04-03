@@ -11,13 +11,13 @@ function Footer() {
       <div className="f-content">
         <span>Gopimudumal99@gmail.com</span>
         <div className="f-icons">
-          <a href="https://www.instagram.com/geneus_gopi/" target="_blank">
+          <a href="https://www.instagram.com/geneus_gopi/" >
             <Insta color="white" size="3rem" />
           </a>
-          <a href="https://www.linkedin.com/in/gopimudumal/" target="_blank">
+          <a href="https://www.linkedin.com/in/gopimudumal/" >
             <LinkedIn color="white" size="3rem" />
           </a>
-          <a href="https://github.com/gopimudumal99" target="_blank">
+          <a href="https://github.com/gopimudumal99" >
             <Github color="white" size="3rem" />
           </a>
         </div>

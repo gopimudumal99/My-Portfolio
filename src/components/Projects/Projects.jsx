@@ -11,7 +11,7 @@ function Projects() {
    const theme = useContext(themeContext);
    const darkMode = theme.state.darkMode;
   return (
-    <div className="projects">
+    <div className="projects" id="projects">
       {/* Hedings  */}
       <span style={{ color: darkMode ? "white" : "" }}>
         Individual and Team
@@ -28,7 +28,7 @@ function Projects() {
         className="projects-slider"
       >
         {projects.map((project) => (
-          <SwiperSlide>
+          <SwiperSlide key={project.title}>
             <div className="p-card">
               <img src={project.img} alt="" />
               <span style={{ color: darkMode ? "white" : "" }}>
@@ -38,10 +38,10 @@ function Projects() {
               <span>TechStack: {project.techStack}</span>
               <span>Project members & duration: {project.type}</span>
               <div className="buttonsDiv">
-                <a href={project.gitLInk} target="_blank">
+                <a href={project.gitLInk} >
                   <button className="button git-btn">Gitub</button>
                 </a>
-                <a href={project.liveLink} target="_blank">
+                <a href={project.liveLink} >
                   <button className="button live-btn">Live</button>
                 </a>
               </div>
