@@ -42,6 +42,7 @@
     /* padding: 0 1rem 0 1rem; */
     background:rgba(255,255,255,0.26) ;
     border: 7px solid var(--blueCard);
+    /* background: white; */
     gap: 10px;
     border-radius: 30px;
     margin-bottom: 2rem;
@@ -98,6 +99,7 @@
 .git-btn,.live-btn{
     flex: 1;
     margin: 0 2rem 0 2rem;
+    font-size: 1rem;
 }
 
 a{
@@ -106,4 +108,12 @@ a{
 
 .projects .swiper-pagination-bullet-active{
     background: var(--orange);
+}
+
+.projects .swiper-pagination-bullet {
+    background: var(--orange);
+        width: 0.5rem;
+        height: 0.5rem;
+        border-radius: .5rem;
+        margin-top: 1rem;
 }

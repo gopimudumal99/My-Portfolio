@@ -31,10 +31,29 @@
     font-family: inherit;
 }
 
-.p-button{
-    width:8rem;
-    height: 2rem;
-    margin-top: 1rem;
+.pd-button{
+width: 8rem;
+height: 2rem;
+font-size: 1rem;
+border-radius:34px;
+border:none;
+outline: none;
+color:white;
+padding: 14px;
+display: flex;
+justify-content: center;
+align-items: center;
+background: linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%);
+box-shadow: 0px 20px 24px 3px rgba(251, 161, 40, 0.42);
+margin-top: 1rem;
+
+}
+
+.pd-button:hover{
+    cursor: pointer;
+    background: white;
+    color: var(--orange);
+    border: 1px solid var(--orange);
 }
 
 .cards{

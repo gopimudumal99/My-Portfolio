@@ -11,12 +11,18 @@ import glassesimoji from "../../img/glassesimoji.png";
 
 import "./Intro.css";
 import FloatingDiv from "../FloatingDiv/FloatingDiv";
+import { themeContext } from "../../Context";
+import { useContext } from "react";
+import {motion} from 'framer-motion'
 function Intro() {
+  const theme = useContext(themeContext);
+  const darkMode = theme.state.darkMode;
+  const transition = { duration: 2, type:'spiring'}
   return (
     <div className="intro">
       <div className="i-left">
         <div className="i-name">
-          <span>Hy! I Am</span>
+          <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
           <span>Gopi Mudumal</span>
           <span>
             I am a Passionate Full Stack Web Developer skilled in MERN stack and
@@ -41,17 +47,33 @@ function Intro() {
         <img src={Vector1} alt="" />
         <img src={Vector2} alt="" />
         <img src={boy} alt="" />
-        <img src={glassesimoji} alt="" />
-        <div style={{ top: "-4%", left: "65%" }}>
+        <motion.img
+          initial={{ left: "-36%" }}
+          whileInView={{ left: "-24%" }}
+          transition={transition}
+          src={glassesimoji}
+          alt=""
+        />
+        <motion.div
+          initial={{ top: "-4%", left: "74%" }}
+          whileInView={{ left: "68%" }}
+          transition={transition}
+          style={{ top: "-4%", left: "65%" }}
+        >
           <FloatingDiv text1={"Web"} text2={"Developer"} image={Crown} />
-        </div>
-        <div style={{ top: "18.4rem", left: "0rem" }}>
+        </motion.div>
+        <motion.div
+          initial={{ left: "9rem", top:'18rem' }}
+          whileInView={{ left: "0rem" }}
+          transition={transition}
+          style={{ top: "18.4rem", left: "0rem" }}
+        >
           <FloatingDiv
             text1={"Data Structures"}
             text2={" & Algorithms"}
             image={thumbup}
           />
-        </div>
+        </motion.div>
         {/* bulr divs */}
         <div className="blur" style={{ baground: "rgba(238,210,255)" }}></div>
         <div

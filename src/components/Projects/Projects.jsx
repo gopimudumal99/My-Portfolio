@@ -5,11 +5,17 @@ import { Pagination } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
 import { projects } from "./ProjectsData";
+import { themeContext } from "../../Context";
+import { useContext } from "react";
 function Projects() {
+   const theme = useContext(themeContext);
+   const darkMode = theme.state.darkMode;
   return (
     <div className="projects">
       {/* Hedings  */}
-      <span>Individual and Team</span>
+      <span style={{ color: darkMode ? "white" : "" }}>
+        Individual and Team
+      </span>
       <span>Projects</span>
 
       {/* slider */}
@@ -25,7 +31,9 @@ function Projects() {
           <SwiperSlide>
             <div className="p-card">
               <img src={project.img} alt="" />
-              <span>{project.title}</span>
+              <span style={{ color: darkMode ? "white" : "" }}>
+                {project.title}
+              </span>
               <span>{project.desc}</span>
               <span>TechStack: {project.techStack}</span>
               <span>Project members & duration: {project.type}</span>

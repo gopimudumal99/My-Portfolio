@@ -5,13 +5,17 @@ import Fiverr from "../../img/fiverr.png";
 import Amazon from "../../img/amazon.png";
 import Shopify from "../../img/Shopify.png";
 import Facebook from "../../img/Facebook.png";
-
+import { themeContext } from "../../Context";
+import { useContext } from "react";
+import {motion} from 'framer-motion'
 function Works() {
+   const theme = useContext(themeContext);
+   const darkMode = theme.state.darkMode;
   return (
     <div className="works">
       {/* left-side */}
       <div className="p-left awesome">
-        <span>Specialized in all these</span>
+        <span style={{ color: darkMode ? 'white':''}}>Specialized in all these</span>
         <span> Languages & Tools</span>
         <span>
           I am looking for opportunity to apply my
@@ -19,7 +23,7 @@ function Works() {
           <br />
           organization and a better version of myself.
         </span>
-        <button className="button p-button">Hire me</button>
+        <button className="button i-button" style={{marginTop:'1rem'}}>Hire me</button>
         <div
           className="blur p-blur-1"
           style={{ background: "#ABF1FF94" }}
@@ -27,7 +31,12 @@ function Works() {
       </div>
       {/* right-side */}
       <div className="w-right">
-        <div className="w-mainCircle">
+        <motion.div
+          initial={{ rotate: '45' }}
+          whileInView={{ rotate: 0 }}
+          viewport={{margin:'-40px'}}
+          transition={{duration:3.5,type:'spring'}}
+          className="w-mainCircle">
           <div className="w-secondaryCircle">
             <img src={Upwork} alt="" />
           </div>
@@ -43,7 +52,7 @@ function Works() {
           <div className="w-secondaryCircle">
             <img src={Facebook} alt="" />
           </div>
-        </div>
+        </motion.div>
         {/* backgound-circle  */}
         <div className="w-backCircle blueCircle"></div>
         <div className="w-backCircle yellowCircle"></div>
