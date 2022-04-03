@@ -13,11 +13,11 @@ import "./Intro.css";
 import FloatingDiv from "../FloatingDiv/FloatingDiv";
 import { themeContext } from "../../Context";
 import { useContext } from "react";
-import {motion} from 'framer-motion'
+import { motion } from "framer-motion";
 function Intro() {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
-  const transition = { duration: 2, type:'spiring'}
+  const transition = { duration: 2, type: "spiring" };
   return (
     <div className="intro">
       <div className="i-left">
@@ -52,21 +52,22 @@ function Intro() {
           whileInView={{ left: "-24%" }}
           transition={transition}
           src={glassesimoji}
-          alt=""
         />
         <motion.div
           initial={{ top: "-4%", left: "74%" }}
           whileInView={{ left: "68%" }}
           transition={transition}
           style={{ top: "-4%", left: "65%" }}
+          className="floating-div"
         >
           <FloatingDiv text1={"Web"} text2={"Developer"} image={Crown} />
         </motion.div>
         <motion.div
-          initial={{ left: "9rem", top:'18rem' }}
+          initial={{ left: "9rem", top: "18rem" }}
           whileInView={{ left: "0rem" }}
           transition={transition}
           style={{ top: "18.4rem", left: "0rem" }}
+          className="floating-div"
         >
           <FloatingDiv
             text1={"Data Structures"}

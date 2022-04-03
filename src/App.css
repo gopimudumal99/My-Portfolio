@@ -40,4 +40,8 @@
 
   
 
-  
+@media screen and (max-width:400px) {
+  App{
+    padding:0.5rem 1rem; 
+  }
+}

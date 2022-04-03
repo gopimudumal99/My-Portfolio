@@ -21,9 +21,9 @@ function Projects() {
       {/* slider */}
       <Swiper
         // spaceBetween={30}
-        slidesPerView={2}
-        grabCursor={true}
+        // grabCursor={true}
         modules={[Pagination]}
+        slidesPerView={1}
         pagination={{ clickable: true }}
         className="projects-slider"
       >
