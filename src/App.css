@@ -42,7 +42,8 @@
 
 @media screen and (max-width:480px) {
   .App{
-    padding:0.5rem 1rem !important; 
+    padding:0rem 1rem !important; 
     /* padding: 0.5rem 1.5rem; */
+    margin-top: -0.2rem;
   }
 }
