@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState,useRef } from "react";
 import Toggle from "../Toggle/Toggle";
 import "./Navbar.css";
 import { Link } from "react-scroll";
@@ -6,8 +6,16 @@ import Bar from "@iconscout/react-unicons/icons/uil-bars";
 import Cross from "@iconscout/react-unicons/icons/uil-times";
 function Navbar() {
   const [hamberg, setHamberge] = useState(false);
-  
+  const show = useRef()
+  const showbtn =useRef()
   const mobileView = () => {
+    showbtn.current.className !== "button n-button show1"
+      ? (showbtn.current.className = "button n-button show1")
+      : (showbtn.current.className = "button n-button");
+    show.current.className !== "show"
+      ? (show.current.className = "show")
+      : (show.current.className = "");
+    
       setHamberge(() => !hamberg);
   };
 
@@ -23,7 +31,8 @@ function Navbar() {
           <div className="bar" onClick={mobileView}>
             {hamberg ? <Cross size={45} /> : <Bar size={45} />}
           </div>
-          <ul style={{ visibility: hamberg ? "" : "hidden" }}>
+          {/* style={{ visibility: hamberg ? "" : "hidden" }} */}
+          <ul ref={show}>
             <li>
               <Link to="navbar" spy={true} smooth={true}>
                 About
@@ -46,9 +55,9 @@ function Navbar() {
             </li>
           </ul>
         </div>
+          {/* style={{ display: hamberg ? "" : "none" }} */}
         <Link to="contact" spy={true} smooth={true}>
-          <button
-            style={{ display: hamberg ? "" : "none" }}
+          <button ref={showbtn}
             className="button n-button"
           >
             Contact

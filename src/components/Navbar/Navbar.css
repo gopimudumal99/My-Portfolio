@@ -75,12 +75,12 @@
     flex-direction: column;
     /* overflow: visible; */
     z-index: 1;
-    margin-top: 3.5rem !important;
+    margin-top: 3.5rem ;
     justify-content: center;
 }
 
 .active-right>.n-list {
-    flex: 1 !important;
+    flex: 1 ;
     /* border: 1px solid blue; */
     display: flex;
     align-items: center;
@@ -94,8 +94,8 @@
 .active-right .n-list>ul {
     /* border: 1px solid red; */
     flex-direction: column;
-    gap: .7rem !important;
-    margin-left: 1.8rem !important;
+    gap: .7rem ;
+    margin-left: 1.8rem ;
     /* align-items: center; */
     /* justify-content: center; */
     /* text-align: center; */
@@ -108,4 +108,17 @@
     .n-wrapper{
         margin-top: 2rem;
     }
+
+    ul{
+        visibility: hidden;
+    }
+
+    .n-button {
+        visibility: hidden;
+    }
+
+    .show,.show1{
+        visibility: visible !important;
+    }
+
 }
