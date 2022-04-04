@@ -10,6 +10,7 @@ import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import { themeContext } from "./Context";
 import { useContext } from "react";
+import "swiper/css/bundle";
 function App() {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
