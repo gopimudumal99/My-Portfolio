@@ -13,7 +13,7 @@ function Projects() {
   return (
     <div className="projects" id="projects">
       {/* Hedings  */}
-      <span style={{ color: darkMode ? "white" : "" }}>
+      <span  style={{ color: darkMode ? "white" : "" }}>
         Individual and Team
       </span>
       <span>Projects</span>
@@ -25,7 +25,9 @@ function Projects() {
         modules={[Pagination]}
         slidesPerView={1}
         pagination={{ clickable: true }}
+        
         className="projects-slider"
+        
       >
         {projects.map((project) => (
           <SwiperSlide key={project.title}>

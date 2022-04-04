@@ -67,9 +67,9 @@
     .n-list{
         display:none
     }
-    .n-button{
+    /* .n-button{
         display: none !important;
-    }
+    } */
 
 .active-right {
     flex-direction: column;

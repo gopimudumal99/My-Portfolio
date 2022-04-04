@@ -6,7 +6,7 @@ function Experience() {
         <div className="achievement">
           <div className="circle">1200+</div>
           <span>Hours</span>
-          <span>Full stack coding</span>
+          <span>Coding</span>
         </div>
         <div className="achievement">
           <div className="circle">300+</div>
@@ -18,11 +18,11 @@ function Experience() {
           <span>Completed</span>
           <span>Projects </span>
         </div>
-        <div className="achievement">
+        {/* <div className="achievement">
           <div className="circle">100+</div>
           <span>Hours</span>
           <span>Soft skills </span>
-        </div>
+        </div> */}
       </div>
     );
 }

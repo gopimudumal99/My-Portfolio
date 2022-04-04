@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: center;
     height: 95vh;
+    /* border: 1px solid red; */
 }
 
 /* headin  */
@@ -22,7 +23,12 @@
 .projects .swiper{
     /* overflow: visible !important; */
         width: 100%;
+        /* width: 50%; */
         height: 70%;
+        /* border: 1px solid green; */
+        overflow: hidden;
+        /* right: 30%;
+        left: 30%; */
 }
 
 .projects-slider{
@@ -39,20 +45,22 @@
 
 .p-card{
     width: 26rem;
-    height: 19rem;
+    height:18rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    /* padding: 0 1rem 0 1rem; */
+    padding: 0.5rem 1rem 0.5rem 1rem;
     background:rgba(255,255,255,0.26) ;
     border: 7px solid var(--blueCard);
     /* background: white; */
     gap: 10px;
     border-radius: 30px;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     box-shadow: var(--smboxShadow);
+    margin-top: 1rem;
     filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.25));
+    margin-left: 30%;
 }
 
 .p-card span:nth-of-type(1){
@@ -120,5 +128,27 @@ a{
         width: 0.5rem;
         height: 0.5rem;
         border-radius: .5rem;
-        margin-top: 1rem;
+}
+
+.projects .swiper-pagination-horizontal{
+    /* border: 1px solid red;  */
+    bottom: 2px;
+}
+
+@media screen and (max-width:480px) {
+
+    .projects span:nth-of-type(1) {
+        font-size: 1.5rem;
+    } 
+
+    .projects{
+        margin-top: -8rem;
+    }
+
+    .p-card{
+        transform: scale(0.6) !important;
+        margin-left: -30%;
+        margin-right: 2%;
+        margin-top: -18%;
+    }
 }

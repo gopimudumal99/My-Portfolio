@@ -6,7 +6,7 @@ import Bar from "@iconscout/react-unicons/icons/uil-bars";
 import Cross from "@iconscout/react-unicons/icons/uil-times";
 function Navbar() {
   const [hamberg, setHamberge] = useState(false);
-
+  
   const mobileView = () => {
       setHamberge(() => !hamberg);
   };
@@ -18,7 +18,7 @@ function Navbar() {
 
         <Toggle />
       </div>
-      <div  className="n-right active-right">
+      <div className="n-right active-right">
         <div className="n-list">
           <div className="bar" onClick={mobileView}>
             {hamberg ? <Cross size={45} /> : <Bar size={45} />}
@@ -47,7 +47,12 @@ function Navbar() {
           </ul>
         </div>
         <Link to="contact" spy={true} smooth={true}>
-          <button className="button n-button">Contact</button>
+          <button
+            style={{ display: hamberg ? "" : "none" }}
+            className="button n-button"
+          >
+            Contact
+          </button>
         </Link>
       </div>
     </div>

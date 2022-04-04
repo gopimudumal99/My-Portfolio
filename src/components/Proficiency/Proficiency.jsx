@@ -42,7 +42,7 @@ function Proficiency() {
           <Card
             emoji={HeartEmoji}
             heading={"DS & Algo"}
-            details={"Intermediate level of Ds ans Algo"}
+            details={"Intermediate level of Data structures ans Algorithms"}
           />
         </motion.div>
         <motion.div
@@ -66,7 +66,7 @@ function Proficiency() {
           <Card
             emoji={Humble}
             heading={"Backend"}
-            details={"Express.js,firebase, MongoDB,Node.js"}
+            details={"Express.js, firebase, MongoDB, Node.js"}
           />
         </motion.div>
         <div
