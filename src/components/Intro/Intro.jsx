@@ -8,12 +8,14 @@ import boy from "../../img/boy.png";
 import thumbup from "../../img/thumbup.png";
 import Crown from "../../img/crown.png";
 import glassesimoji from "../../img/glassesimoji.png";
-
+import { Link } from "react-scroll";
 import "./Intro.css";
 import FloatingDiv from "../FloatingDiv/FloatingDiv";
 import { themeContext } from "../../Context";
 import { useContext } from "react";
 import { motion } from "framer-motion";
+
+
 function Intro() {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
@@ -29,7 +31,9 @@ function Intro() {
             more intrested to build and design web application
           </span>
         </div>
+        <Link to="contact" spy={true} smooth={true}>
         <button className="button i-button">Hire me</button>
+        </Link>
         <div className="i-icons">
           <a href="https://github.com/gopimudumal99">
             <img src={Github} alt="" />
