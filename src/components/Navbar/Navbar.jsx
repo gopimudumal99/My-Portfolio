@@ -23,7 +23,6 @@ function Navbar() {
     <div className="n-wrapper" id="navbar">
       <div className="n-left">
         <div className="n-name">Gopi Mudumal</div>
-
         <Toggle />
       </div>
       <div className="n-right active-right">

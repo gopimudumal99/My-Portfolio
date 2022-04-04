@@ -55,8 +55,8 @@
 
 .bar{
    position:absolute;
-   right: -3rem;
-   top: 20px;
+   right: -1rem;
+   top: 15px;
    color: var(--orange);
    display: none;
 }
@@ -75,8 +75,9 @@
     flex-direction: column;
     /* overflow: visible; */
     z-index: 1;
-    margin-top: 3.5rem ;
+    margin-top: 4.5rem ;
     justify-content: center;
+
 }
 
 .active-right>.n-list {
@@ -85,7 +86,7 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    margin-left: -3rem;
+    margin-left: -0.5rem;
 
 }
 
