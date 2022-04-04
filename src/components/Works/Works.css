@@ -24,6 +24,8 @@
     position: absolute;
 }
 
+
+
 .w-mainCircle>:nth-child(1){
     top: -3rem;
     left: 6rem;
@@ -63,7 +65,8 @@
 }
 
 .w-secondaryCircle>img{
-    transform: scale(0.6);
+    transform: scale(0.7);
+    width: 100%;
 }
 
 .w-backCircle{

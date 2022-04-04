@@ -1,10 +1,10 @@
 import React from "react";
 import "./Works.css";
-import Upwork from "../../img/Upwork.png";
-import Fiverr from "../../img/fiverr.png";
-import Amazon from "../../img/amazon.png";
-import Shopify from "../../img/Shopify.png";
-import Facebook from "../../img/Facebook.png";
+import Nodejs from "../../img/nodejs.png";
+import ReactIcon from "../../img/reactIcon.png";
+import JavaScript from "../../img/js.png";
+import mongoDb from "../../img/mongoDb.png";
+import Express from "../../img/express.png";
 import { themeContext } from "../../Context";
 import { useContext } from "react";
 import { motion } from "framer-motion";
@@ -45,19 +45,19 @@ function Works() {
           className="w-mainCircle"
         >
           <div className="w-secondaryCircle">
-            <img src={Upwork} alt="" />
+            <img  src={Nodejs} alt="" />
           </div>
           <div className="w-secondaryCircle">
-            <img src={Fiverr} alt="" />
+            <img  src={ReactIcon} alt="" /> 
           </div>
           <div className="w-secondaryCircle">
-            <img src={Amazon} alt="" />
+            <img  src={JavaScript} alt="" />
           </div>
           <div className="w-secondaryCircle">
-            <img src={Shopify} alt="" />
+            <img  src={mongoDb} alt="" />
           </div>
           <div className="w-secondaryCircle">
-            <img src={Facebook} alt="" />
+            <img src={Express} alt="" />
           </div>
         </motion.div>
         {/* backgound-circle  */}
