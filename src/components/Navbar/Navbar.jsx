@@ -33,7 +33,7 @@ function Navbar() {
           {/* style={{ visibility: hamberg ? "" : "hidden" }} */}
           <ul ref={show}>
             <li>
-              <Link to="navbar" spy={true} smooth={true}>
+              <Link to="intro" spy={true} smooth={true}>
                 About
               </Link>
             </li>
