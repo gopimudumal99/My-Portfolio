@@ -14,7 +14,7 @@ function Proficiency() {
   const darkMode = theme.state.darkMode;
   return (
     <div className="proficency" id="proficency">
-      <div className="p-left awesome">
+      <div className="p-left awesome mobileview">
         <span style={{ color: darkMode ? "white" : "" }}>My Areas of</span>
         <span>Proficiency</span>
         <span>

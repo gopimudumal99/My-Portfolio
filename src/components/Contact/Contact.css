@@ -56,4 +56,16 @@ textarea{
         width: 16rem;
     }
 
+    .c-right{
+        margin-top: -20%;
+    }
+
+    .w-left{
+        transform: scale(0.9);
+        margin-top: -5%;
+    }
+
+    .c-right>form{
+        gap: 1rem;
+    }
 }

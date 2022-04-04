@@ -21,7 +21,7 @@ function Intro() {
   return (
     <div className="intro">
       <div className="i-left">
-        <div className="i-name">
+        <div className="i-name mobileview">
           <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
           <span>Gopi Mudumal</span>
           <span>

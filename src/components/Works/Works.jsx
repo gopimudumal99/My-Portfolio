@@ -14,9 +14,9 @@ function Works() {
   return (
     <div className="works" id="skills">
       {/* left-side */}
-      <div className="p-left awesome">
+      <div className="p-left awesome mobileview">
         <span style={{ color: darkMode ? "white" : "" }}>
-          Specialized in all these
+          Specialized 
         </span>
         <span> Languages & Tools</span>
         <span>

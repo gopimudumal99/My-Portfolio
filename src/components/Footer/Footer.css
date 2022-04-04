@@ -22,3 +22,18 @@
     display: flex;
     gap: 2rem;
 }
+
+
+@media screen and (max-width:480px) {
+
+    .footer{
+        margin-top: -17rem;
+    }
+
+    .footer >img{
+        height: 14rem;
+    }
+    .f-content{
+        margin-top: 4rem;
+    }
+}
