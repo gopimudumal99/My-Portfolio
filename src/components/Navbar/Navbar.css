@@ -27,6 +27,7 @@
 .n-list{
    flex: 10;
    margin-right: 2rem;
+   position: relative;
 }
 
 .n-list>ul{
@@ -47,11 +48,64 @@
     font-size: 18px !important;
 }
 
+
+/* active btn start */
+
+
+
+.bar{
+   position:absolute;
+   right: -3rem;
+   top: 20px;
+   color: var(--orange);
+   display: none;
+}
+
+/* active btn end */
+
 @media screen and (max-width:480px){
     .n-list{
         display:none
     }
-    /* .n-button{
+    .n-button{
         display: none !important;
-    } */
+    }
+
+.active-right {
+    flex-direction: column;
+    /* overflow: visible; */
+    z-index: 1      ;
+    margin-top: 3.5rem !important;
+    justify-content: center;
+}
+
+.active-right>.n-list {
+    flex: 1 !important;
+    /* border: 1px solid blue; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: -2rem;
+
+}
+
+
+
+.active-right .n-list>ul {
+    /* border: 1px solid red; */
+    flex-direction: column;
+    gap: .7rem !important;
+    margin-left: 1rem !important;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* text-align: center; */
+}
+
+
+    .bar {
+        display: block;
+    }
+    .n-wrapper{
+        margin-top: 2rem;
+    }
 }
