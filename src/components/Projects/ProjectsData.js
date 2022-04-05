@@ -5,6 +5,11 @@ import { FaCss3Alt, FaReact, FaNode, FaHtml5 } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { DiMongodb, DiFirebase } from "react-icons/di";
 import { SiRedux, SiMaterialui, SiExpress } from "react-icons/si";
+import Calculator from "../../img/calculator.PNG";
+import FoodRecipe from "../../img/foodIngreadients.PNG";
+import Emart from "../../img/emart.PNG";
+import Imgur from "../../img/imgur.PNG";
+
 
 export const projects = [
   {
@@ -37,5 +42,45 @@ export const projects = [
     techStack: "Node.js, MongoDB, Express, Html, Cs, ejs",
     type: "4 members and 5 days",
     icons: [FaHtml5, FaCss3Alt, FaNode, DiMongodb, SiExpress],
+  },
+
+  {
+    img: Emart,
+    title: "E-mart",
+    desc: "Built an e-commerce website with classic look and greate user exprerience functionality",
+    gitLInk: "https://github.com/gopimudumal99/emart",
+    liveLink: "https://emart-react.netlify.app/",
+    techStack: "React.js Bootstrap Redux ",
+    type: "Individual and 2day",
+  },
+
+  {
+    img: FoodRecipe,
+    title: "Food Ingreadients",
+    desc: "It is a food recipe app provide entire information of food by seach your ingreadients",
+    gitLInk: "https://github.com/gopimudumal99/Food-Recipes-app.github.io",
+    liveLink: "https://gopimudumal99.github.io/Food-Recipes-app.github.io/",
+    techStack: "Html css js ",
+    type: "Individual and 1day",
+  },
+
+  {
+    img: Calculator,
+    title: "Calculator",
+    desc: "A simple calculator performing all operations simillar normal calculator",
+    gitLInk: "https://github.com/gopimudumal99/Calculator",
+    liveLink: "https://gopi-reactjs-calculator.netlify.app/",
+    techStack: "React.js css ",
+    type: "Individual and 5hrs",
+  },
+
+  {
+    img: Imgur,
+    title: "imgur",
+    desc: "imgur website designed by html css and js",
+    gitLInk: "https://github.com/gopimudumal99/imgur.github.io",
+    liveLink: "https://imgur-gopi.netlify.app/",
+    techStack: "html js css",
+    type: "Individual and 1day",
   },
 ];
