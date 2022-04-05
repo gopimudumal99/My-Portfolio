@@ -14,7 +14,7 @@ function Projects() {
     <div className="projects" id="projects">
       {/* Hedings  */}
       <span  style={{ color: darkMode ? "white" : "" }}>
-        Individual and Team
+        Solo and Team
       </span>
       <span>Projects</span>
 

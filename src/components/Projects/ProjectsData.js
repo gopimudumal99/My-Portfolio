@@ -9,7 +9,7 @@ import Calculator from "../../img/calculator.PNG";
 import FoodRecipe from "../../img/foodIngreadients.PNG";
 import Emart from "../../img/emart.PNG";
 import Imgur from "../../img/imgur.PNG";
-
+import MovieTrend from "../../img/movi-trend.PNG";
 
 export const projects = [
   {
@@ -51,7 +51,7 @@ export const projects = [
     gitLInk: "https://github.com/gopimudumal99/emart",
     liveLink: "https://emart-react.netlify.app/",
     techStack: "React.js Bootstrap Redux ",
-    type: "Individual and 2day",
+    type: "Solo and 2day",
   },
 
   {
@@ -61,7 +61,7 @@ export const projects = [
     gitLInk: "https://github.com/gopimudumal99/Food-Recipes-app.github.io",
     liveLink: "https://gopimudumal99.github.io/Food-Recipes-app.github.io/",
     techStack: "Html css js ",
-    type: "Individual and 1day",
+    type: "Solo and 1day",
   },
 
   {
@@ -71,9 +71,8 @@ export const projects = [
     gitLInk: "https://github.com/gopimudumal99/Calculator",
     liveLink: "https://gopi-reactjs-calculator.netlify.app/",
     techStack: "React.js css ",
-    type: "Individual and 5hrs",
+    type: "Solo and 5hrs",
   },
-
   {
     img: Imgur,
     title: "imgur",
@@ -81,6 +80,15 @@ export const projects = [
     gitLInk: "https://github.com/gopimudumal99/imgur.github.io",
     liveLink: "https://imgur-gopi.netlify.app/",
     techStack: "html js css",
-    type: "Individual and 1day",
+    type: "Solo and 1day",
+  },
+  {
+    img: MovieTrend,
+    title: "Movie-search",
+    desc: "Search a movie and get a rating of the movie and overview  ",
+    gitLInk: "https://github.com/gopimudumal99/movieapp",
+    liveLink: "https://movie-trend-app.netlify.app/",
+    techStack: "html js css",
+    type: "Solo and 1day",
   },
 ];
