@@ -5,6 +5,7 @@
     justify-content: center;
     height: 90vh;
     /* border: 1px solid red; */
+    margin-top:4rem;
 }
 
 /* headin  */
@@ -142,7 +143,7 @@ a{
     } 
 
     .projects{
-        margin-top: -20rem;
+        margin-top: -5rem;
     }
 
     .p-card{

@@ -7,6 +7,7 @@
 
 .w-right{
     position: relative;
+    margin-top: 5rem;
 }
 
 .w-mainCircle{
@@ -103,7 +104,8 @@
         align-items: flex-start;
         justify-content: flex-start;
         transform: scale(0.7);
-        margin-top: -5rem;
+        margin-top: -3rem;
+        margin-bottom: 3rem !important;
     }
 
     .w-mainCircle {
@@ -121,5 +123,6 @@
     .mobileview span:nth-of-type(2) {
         font-size: 2rem;
     }
+
 
 }

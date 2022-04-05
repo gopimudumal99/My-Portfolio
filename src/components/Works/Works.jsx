@@ -9,6 +9,7 @@ import { themeContext } from "../../Context";
 import { useContext } from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-scroll";
+import Skillicons from "../SkillIcons/Skillicons";
 function Works() {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
@@ -34,6 +35,9 @@ function Works() {
           className="blur p-blur-1"
           style={{ background: "#ABF1FF94" }}
         ></div>
+        <div className="groupsIcons">
+        <Skillicons />
+        </div>
       </div>
       {/* right-side */}
       <div className="w-right">
@@ -45,16 +49,16 @@ function Works() {
           className="w-mainCircle"
         >
           <div className="w-secondaryCircle">
-            <img  src={Nodejs} alt="" />
+            <img src={Nodejs} alt="" />
           </div>
           <div className="w-secondaryCircle">
-            <img  src={ReactIcon} alt="" /> 
+            <img src={ReactIcon} alt="" />
           </div>
           <div className="w-secondaryCircle">
-            <img  src={JavaScript} alt="" />
+            <img src={JavaScript} alt="" />
           </div>
           <div className="w-secondaryCircle">
-            <img  src={mongoDb} alt="" />
+            <img src={mongoDb} alt="" />
           </div>
           <div className="w-secondaryCircle">
             <img src={Express} alt="" />
