@@ -42,7 +42,8 @@ function Proficiency() {
           <Card
             emoji={HeartEmoji}
             heading={"DS & Algo"}
-            details={"Intermediate level of Data structures ans Algorithms"}
+            details={"Intermediate level of Data structures and Algo"}
+            link={"https://github.com/gopimudumal99/DSA"}
           />
         </motion.div>
         <motion.div
@@ -55,6 +56,7 @@ function Proficiency() {
             emoji={Glasses}
             heading={"Frontend"}
             details={"HTML, CSS, React, Redux, Javascript, MaterialUI"}
+            link={"https://github.com/gopimudumal99"}
           />
         </motion.div>
         <motion.div
@@ -67,6 +69,7 @@ function Proficiency() {
             emoji={Humble}
             heading={"Backend"}
             details={"Express.js, firebase, MongoDB, Node.js"}
+            link={"https://github.com/gopimudumal99"}
           />
         </motion.div>
         <div

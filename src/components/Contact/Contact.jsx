@@ -3,12 +3,13 @@ import emailjs from "@emailjs/browser";
 import "./Contact.css";
 import { themeContext } from "../../Context";
 import { useContext } from "react";
+import { UilSmile } from "@iconscout/react-unicons";
 function Contact() {
    const theme = useContext(themeContext);
    const darkMode = theme.state.darkMode;
   const form = useRef();
   const [done, setDone] = useState(false);
-  const sendEmail = (e) => {
+  const sendEmail = (e) => { 
     e.preventDefault();
     emailjs
       .sendForm(
@@ -25,11 +26,12 @@ function Contact() {
         (error) => {
           console.log(error.text);
         }
-      );
+    );
+    
   };
 
   return (
-    <div className="contact-form" id='contact'>
+    <div className="contact-form" id="contact">
       <div className="w-left">
         <div className="awesome">
           <span style={{ color: darkMode ? "white" : "" }}>Get in touch</span>
@@ -42,7 +44,13 @@ function Contact() {
       </div>
 
       <div className="c-right">
-        <form ref={form} onSubmit={sendEmail}>
+        <form ref={form} onSubmit={sendEmail} autoComplete="off">
+          <input
+            autoComplete="false"
+            name="hidden"
+            type="text"
+            style={{ display: "none" }}
+          ></input>
           <input
             type="text"
             name="user_name"
@@ -64,7 +72,10 @@ function Contact() {
             required
           />
           <input type="submit" value="Send" className="button" />
-          <span>{done && "Thanks for contacting me!"}</span>
+          <span style={{ display: "flex", gap: "5px" }}>
+            {done && "Thanks for contacting me!"}
+            {done && <UilSmile color="orange" size={29} />}
+          </span>
           <div
             className="blur c-blur1"
             style={{ background: "var(--purple)" }}

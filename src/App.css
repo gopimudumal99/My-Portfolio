@@ -39,6 +39,9 @@
   border: 1px solid var(--orange);
 }
 
+img{
+  pointer-events: none;
+}
   
 
 @media screen and (max-width:480px) {

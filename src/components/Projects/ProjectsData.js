@@ -9,7 +9,7 @@ import Calculator from "../../img/calculator.PNG";
 import FoodRecipe from "../../img/foodIngreadients.PNG";
 import Emart from "../../img/emart.PNG";
 import Imgur from "../../img/imgur.PNG";
-import MovieTrend from "../../img/movi-trend.PNG";
+import MovieTrend from "../../img/movie-trend.PNG";
 
 export const projects = [
   {
