@@ -1,18 +1,11 @@
 import React from "react";
 import "./Skillicons.css";
 
-import {
-  FaCss3Alt,
-  FaNode,
-  FaHtml5,
-  FaNpm,
-  FaGitAlt,
-} from "react-icons/fa";
-import { IoLogoJavascript } from "react-icons/io5";
+import { FaCss3Alt, FaHtml5, FaNpm, FaGitAlt } from "react-icons/fa";
 import { DiHeroku, DiFirebase } from "react-icons/di";
 import {
   SiRedux,
-    SiNetlify,
+  SiNetlify,
   SiVisualstudiocode,
   SiMaterialui,
   SiPostman,
