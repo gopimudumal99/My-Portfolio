@@ -72,17 +72,25 @@
 .i-right>:nth-child(1){
     transform: scale(0.69);
     left:-15%;
-    top:-9%
+    top:-9%;
+    visibility: hidden;
 }
 .i-right>:nth-child(2) {
     transform: scale(0.67);
     left: -3rem;
     top: -4.6rem;
+    visibility: hidden;
 }
 
 .i-right>:nth-child(3) {
-    transform: scale(1.4);
-    left: 28%;
+    /* transform: scale(1.4); */
+    transform: scale(1);
+    border: 20px solid #fdc807;
+    background: #fdc807;
+    border-radius: 50%;
+    /* left: 28%; */
+    left: 15%;
+    top:-18%;
 }
 
 .i-right>:nth-child(4) {
@@ -113,6 +121,16 @@
 
     .i-name{
         margin-top: 1rem;
+    }
+
+    .i-right>:nth-child(3){
+        transform: scale(0.9);
+    }
+
+    .i-right>:nth-child(5){
+        /* background-color: red; */
+        margin-top:1rem;
+        margin-left: 5rem;
     }
 
     .i-left{
