@@ -28,8 +28,9 @@ function Intro() {
           <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
           <span>Gopi Mudumal</span>
           <span>
-            I am a Passionate Full Stack Web Developer skilled in MERN stack and
-            more intrested to build and design web application
+            I am Passionate about Full Stack Web Developer skilled in MERN stack and
+            more interested to build and design web application
+
           </span>
         </div>
         <Link to="contact" spy={true} smooth={true}>

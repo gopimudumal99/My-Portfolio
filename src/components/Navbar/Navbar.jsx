@@ -39,7 +39,7 @@ function Navbar() {
             </li>
             <li>
               <Link to="proficency" spy={true} smooth={true}>
-                Proficency
+                Proficiency
               </Link>
             </li>
             <li>

@@ -9,15 +9,19 @@ function Footer() {
     <div className="footer">
       <img src={Wave} style={{ width: "100%" }} alt="" />
       <div className="f-content">
-        <span>Gopimudumal99@gmail.com</span>
+        <span >
+          Gopimudumal99@gmail.com <br />
+          -- ZainRk -- 
+        </span>
+
         <div className="f-icons">
-          <a href="https://www.instagram.com/geneus_gopi/" >
+          <a href="https://www.instagram.com/geneus_gopi/">
             <Insta color="white" size="3rem" />
           </a>
-          <a href="https://www.linkedin.com/in/gopimudumal/" >
+          <a href="https://www.linkedin.com/in/gopimudumal/">
             <LinkedIn color="white" size="3rem" />
           </a>
-          <a href="https://github.com/gopimudumal99" >
+          <a href="https://github.com/gopimudumal99">
             <Github color="white" size="3rem" />
           </a>
         </div>

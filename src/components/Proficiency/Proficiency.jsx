@@ -22,7 +22,7 @@ function Proficiency() {
           than 300+ problems
           <br />
           of Data structure and algorithms and more then 100 hours soft skill
-          and build 10+ projects <br /> in my Masai journey
+          and built 10+ projects <br /> in my Masai journey
         </span>
         <a href={Resume} download style={{ textDecoration: "none" }}>
           <button className=" pd-button">Download CV</button>
@@ -68,7 +68,7 @@ function Proficiency() {
           <Card
             emoji={Humble}
             heading={"Backend"}
-            details={"Express.js, firebase, MongoDB, Node.js"}
+            details={"Express.js, Firebase, MongoDB, Node.js"}
             link={"https://github.com/gopimudumal99"}
           />
         </motion.div>

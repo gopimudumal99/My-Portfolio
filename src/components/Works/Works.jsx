@@ -20,7 +20,7 @@ function Works() {
         <span style={{ color: darkMode ? "white" : "" }}>Specialized</span>
         <span> Languages & Tools</span>
         <span>
-          I am looking for opportunity to apply my knowledge and skills to be a
+          I am looking for an opportunity where i can apply my knowledge and skills to be a
           valuable assets for
           <br />
           organization and a better version of myself.
