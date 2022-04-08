@@ -1,5 +1,5 @@
 .proficency{
-    padding: 0 3rem 0 3rem;
+    padding: 0 2rem 0 2rem;
     display: flex;
     height: 90vh;
     margin-bottom: 8rem;
@@ -22,17 +22,19 @@
     color: var(--orange);
     font-size: 2.5rem;
     font-weight: bold;
+
 }
 
 .awesome>:nth-child(3) {
     color: var(--gray);
-    font-size: 14px;
+    font-size: 16px;
     margin-top: 1rem;
     font-family: inherit;
+
 }
 
 .pd-button{
-width: 8rem;
+width: 6rem;
 height: 2rem;
 font-size: 1rem;
 border-radius:34px;

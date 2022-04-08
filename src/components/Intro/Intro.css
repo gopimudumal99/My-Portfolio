@@ -32,17 +32,18 @@
 .i-name>:nth-child(3){
     font-weight: 100;
     color: var(--gray);
-    font-size: 15px;
+    font-size: 16px;
     margin-top: 10px;
+    font-family: inherit;
 }
 
 .i-button{
-    width: 6rem;
+    width: 8rem !important;
     height: 2rem;
     font-size: 1rem;
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 }
 
 .i-icons{

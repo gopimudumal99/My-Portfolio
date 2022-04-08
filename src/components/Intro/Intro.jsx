@@ -15,7 +15,7 @@ import FloatingDiv from "../FloatingDiv/FloatingDiv";
 import { themeContext } from "../../Context";
 import { useContext } from "react";
 import { motion } from "framer-motion";
-
+import Resume from "./resume.pdf";
 
 function Intro() {
   const theme = useContext(themeContext);
@@ -28,14 +28,14 @@ function Intro() {
           <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
           <span>Gopi Mudumal</span>
           <span>
-            I am Passionate about Full Stack Web Developer skilled in MERN stack and
-            more interested to build and design web application
-
+            A passionate Full Stack Software Developer 🚀 having an curiosity of
+            building Web applications with JavaScript / Reactjs / Nodejs and
+            some other cool libraries and frameworks.
           </span>
         </div>
-        <Link to="contact" spy={true} smooth={true}>
-          <button className="button i-button">Hire me</button>
-        </Link>
+          <a href={Resume} download style={{ textDecoration: "none" }}>
+            <button className="button i-button">Download CV</button>
+          </a>
         <div className="i-icons">
           <a href="https://github.com/gopimudumal99">
             <img src={Github} alt="" />

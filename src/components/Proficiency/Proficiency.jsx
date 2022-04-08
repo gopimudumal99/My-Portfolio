@@ -4,10 +4,10 @@ import HeartEmoji from "../../img/heartemoji.png";
 import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
 import Card from "./../Card/Card";
-import Resume from "./resume.pdf";
 import { themeContext } from "../../Context";
 import { useContext } from "react";
 import { motion } from "framer-motion";
+import { Link } from "react-scroll";
 function Proficiency() {
   const transition = { duration: 2, type: "spring" };
   const theme = useContext(themeContext);
@@ -24,9 +24,10 @@ function Proficiency() {
           of Data structure and algorithms and more then 100 hours soft skill
           and built 10+ projects <br /> in my Masai journey
         </span>
-        <a href={Resume} download style={{ textDecoration: "none" }}>
-          <button className=" pd-button">Download CV</button>
-        </a>
+        <Link to="contact" spy={true} smooth={true}>
+          <button className=" pd-button">Hire me</button>
+        </Link>
+
         <div
           className="blur p-blur-1"
           style={{ background: "#ABF1FF94" }}

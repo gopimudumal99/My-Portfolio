@@ -20,10 +20,9 @@ function Works() {
         <span style={{ color: darkMode ? "white" : "" }}>Specialized</span>
         <span> Languages & Tools</span>
         <span>
-          I am looking for an opportunity where i can apply my knowledge and skills to be a
-          valuable assets for
+          Crazy full stack developer who wants to explore every tech stack
           <br />
-          organization and a better version of myself.
+          Develop highly interactive Front end / User Interfaces for web applications
         </span>
 
         <Link to="contact" spy={true} smooth={true}>
@@ -36,7 +35,7 @@ function Works() {
           style={{ background: "#ABF1FF94" }}
         ></div>
         <div className="groupsIcons">
-        <Skillicons />
+          <Skillicons />
         </div>
       </div>
       {/* right-side */}

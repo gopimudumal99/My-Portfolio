@@ -71,7 +71,7 @@ function Contact() {
             placeholder="Message"
             required
           />
-          <input type="submit" value="Send" className="button" />
+          <input type="submit" value="Send" className="button button-contact" />
           <span style={{ display: "flex", gap: "5px" }}>
             {done && "Thanks for contacting me!"}
             {done && <UilSmile color="orange" size={29} />}
