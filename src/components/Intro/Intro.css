@@ -122,6 +122,7 @@
 
     .i-name{
         margin-top: 1rem;
+        font-family: inherit;
     }
 
     .i-right>:nth-child(3){
