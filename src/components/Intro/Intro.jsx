@@ -9,7 +9,6 @@ import Gopi from '../../img/gopi.png'
 import thumbup from "../../img/thumbup.png";
 import Crown from "../../img/crown.png";
 import glassesimoji from "../../img/glassesimoji.png";
-import { Link } from "react-scroll";
 import "./Intro.css";
 import FloatingDiv from "../FloatingDiv/FloatingDiv";
 import { themeContext } from "../../Context";
