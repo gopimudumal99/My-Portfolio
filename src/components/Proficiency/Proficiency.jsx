@@ -22,7 +22,7 @@ function Proficiency() {
           than 300+ problems
           <br />
           of Data structure and algorithms and more then 100 hours soft skill
-          and built 10+ projects <br /> in my Masai journey
+          and built 10+ projects <br /> in my Masai journey.
         </span>
         <Link to="contact" spy={true} smooth={true}>
           <button className=" pd-button">Hire me</button>

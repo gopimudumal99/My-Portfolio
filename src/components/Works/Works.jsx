@@ -20,9 +20,9 @@ function Works() {
         <span style={{ color: darkMode ? "white" : "" }}>Specialized</span>
         <span> Languages & Tools</span>
         <span>
-          Crazy full stack developer who wants to explore every tech stack
+          Crazy full stack developer who wants to explore every tech stack.
           <br />
-          Develop highly interactive Front end / User Interfaces for web applications
+          Develop highly interactive Front end / User Interfaces for web applications.
         </span>
 
         <Link to="contact" spy={true} smooth={true}>
